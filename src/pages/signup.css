@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #4eac6d;
+    font-family:  system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+ }
+
+.container{
+    height: 100%;
+    width:100%;
+    display: block;
+
+}
+
+
+/* /////// */
+.header-container{
+    margin: 2rem;
+    padding: 2rem;
+    width: 25%;
+}
+.imp{
+        -webkit-appearance: none;
+        appearance: none;
+        background-clip: padding-box;
+        background-color: #fff;
+        background-color: var(--bs-input-bg);
+        border: 1px solid #eaeaf1;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        border-radius: 0.25rem;
+        border-radius: var(--bs-border-radius);
+        color: #495057;
+        color: var(--bs-body-color);
+        display: block;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.5rem 1rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        width: 100%;
+}
+button, input, optgroup, select, textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+input {
+    
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+
+.heading{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem !important;
+    padding-bottom: 0 !important;
+    @media(max-width: 991.98px) {
+    text-align: center;
+    }
+}
+.heading-text{
+    color: aliceblue;
+}
+.a{
+    color: white;
+    outline: none;
+    text-decoration:none;
+    cursor: pointer;
+
+}
+ .i{
+    display: inline-block;
+    color: white;
+    margin-bottom: 0.25rem;
+    margin: right 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: pointer;
+    vertical-align: middle !important;
+    @media(max-width: 991.98px) {
+    text-align: center;
+    }
+}
+
+.description{
+    font-size: 16px !important;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    @media (max-width: 991.98px){
+    text-align: center;
+    }
+
+}
+
+
+.head-img{
+      margin-top: auto;
+      display: block;
+      @media (max-width: 991.98px){
+        text-align: center;
+        }
+}
+.avter{
+    @media (max-width:991.98) {
+        display: none;
+        text-align: center;
+    }
+        position: relative;
+        vertical-align: middle;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+}
+
+/* ///// */
+.main-container{
+    display: block;
+    max-width: 100%;
+      
+     
+}
+.auth-layout-container{
+    display: flex;
+    flex-direction: column;
+    margin : 3rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    height: 45rem;
+    width: 64rem;
+    /* justify-content: center; */
+}
+.main-head-container{
+     
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    
+}
+.main-head{
+    text-align:center;
+    margin-bottom:3rem;
+    display: block !important;
+}
+.signup-container{
+    /* margin-top: 2rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+     padding: 2rem;
+     display: block;
+     padding: 1.5rem;
+     display: block;
+     @media (min-width: 576px){
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    padding: 3rem;
+    }
+}
+.p{
+    margin-bottom: 1rem;
+    margin-top: 0;
+    text-align: center;
+}
+.signup-from{
+    position: relative;
+    display: block;
+    margin-top: 0em;
+}
+.field{
+    margin-bottom: 1rem;
+    display: block;
+}
+label{
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    display: inline-block;
+    cursor: default;
+
+}
+.submit{
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+.auth-Container{
+
+}
+.auth-items{
+
+}
+.islogin{
+
+}
